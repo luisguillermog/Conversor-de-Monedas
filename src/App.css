@@ -1,7 +1,6 @@
-/* Fondo dorado minimalista */
 body {
   background: linear-gradient(135deg, #d4af37, #c68e00);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +9,6 @@ body {
   color: #333;
 }
 
-/* Caja del conversor */
 .container {
   background: #fffaf0;
   padding: 30px;
@@ -21,7 +19,6 @@ body {
   animation: fadeIn 0.5s ease-in-out;
 }
 
-/* Título */
 h2 {
   font-size: 22px;
   color: #d59900;
@@ -29,8 +26,8 @@ h2 {
   font-weight: 600;
 }
 
-/* Inputs y selects */
-input, select {
+input,
+select {
   width: 100%;
   padding: 12px;
   margin: 8px 0;
@@ -42,13 +39,13 @@ input, select {
   transition: all 0.3s ease-in-out;
 }
 
-input:focus, select:focus {
+input:focus,
+select:focus {
   border-color: #d99b00;
   outline: none;
   box-shadow: 0px 0px 8px rgba(184, 134, 11, 0.5);
 }
 
-/* Botón */
 button {
   background: #da9c00;
   color: white;
@@ -68,7 +65,6 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Resultado */
 .result {
   font-size: 20px;
   color: #d59900;
@@ -79,7 +75,6 @@ button:hover {
   border-radius: 8px;
 }
 
-/* Animación de entrada */
 @keyframes fadeIn {
   from {
     opacity: 0;
